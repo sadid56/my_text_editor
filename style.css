@@ -1,6 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Pacifico&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@1,400;1,700&family=Rubik+Wet+Paint&family=Tilt+Prism&display=swap');
 
 
 .bold-text{
@@ -11,4 +11,22 @@
 }
 .underline{
     text-decoration: underline;
+}
+.cursive{
+    font-family: cursive;
+}
+.tilt-prism-font{
+    font-family: 'Tilt Prism', cursive;
+}
+.barriecito-font{
+    font-family: 'Barriecito', cursive;
+}
+.playfair-font{
+    font-family: 'Playfair Display', serif;
+}
+.Pacifico-font{
+    font-family: 'Pacifico', cursive;
+}
+.Rubik-font{
+    font-family: 'Rubik Wet Paint', cursive;
 }

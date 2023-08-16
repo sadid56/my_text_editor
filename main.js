@@ -1,33 +1,37 @@
 
+// document.getElementById('bold-btn').addEventListener('click', function(){
+//     const inputFieldElement = document.getElementById('input-feild'); 
+    
+    
+//     inputFieldElement.style.fontWeight = 'bold';
+  
+    
+// });
+// document.getElementById('bold-btn').addEventListener('click', function(){
+//     const inputFieldElement = document.getElementById('input-field'); 
+//     const isBold = inputFieldElement.style.fontWeight === 'bold';
+    
+//     inputFieldElement.style.fontWeight = isBold ? 'normal' : 'bold';
+// });
+// document.getElementById('bold-btn').addEventListener('click', function(){
+//     const inputFieldElement = document.getElementById('input-field'); 
+//     inputFieldElement.style.fontWeight = 'bold';
+// });
 document.getElementById('bold-btn').addEventListener('click', function(){
     const inputFieldElement = document.getElementById('input-feild'); 
-    // let isBold = false;
-    
-    inputFieldElement.style.fontWeight = 'bold';
-    // if(!isBold){
-    //     inputFieldElement.style.fontWeight = 'bold';
-    //     isBold = true;
-    // }
-    // else{
-    //     inputFieldElement.style.fontWeight = 'normal';
-    //     isBold = false;
-    // }
-    // //inputFieldElement.removeAttribute
+    inputFieldElement.classList.toggle('bold-text'); // text bold in css!
 });
+
 
 
 document.getElementById('italic-btn').addEventListener('click', function(){
     const inputFieldElement = document.getElementById('input-feild');
-    inputFieldElement.style.fontFamily = 'sens sarif';
+    inputFieldElement.classList.toggle('italic-font');
 })
-document.getElementById('undderline-btn').addEventListener('click',function(){
-    const inputFieldElement = document.getElementById('input-feild');
-    inputFieldElement.style.textDecoration = 'underline';
-});
 
-document.getElementById('text-start-btn').addEventListener('click', function(){
+document.getElementById('undderline-btn').addEventListener('click', function(){
     const inputFieldElement = document.getElementById('input-feild');
-    inputFieldElement.style.textAlign = 'start';
+    inputFieldElement.classList.toggle('underline')
 })
 document.getElementById('text-start-btn').addEventListener('click', function(){
     const inputFieldElement = document.getElementById('input-feild');
